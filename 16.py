@@ -16,6 +16,9 @@ match x:
     # if x is 100
     case _ if x == 100:
         print(x, "is 100")
+    case _ if x == 45:
+        print(x, "is 45")
     # if x is neither 90 nor 80
     case _ if x != 90 and x != 80:
         print(x, "is neither 90 nor 80")
+    
